@@ -460,7 +460,8 @@
 .newsletter-img-container {
     position: relative;
 }
-.newsletter-img-container img{
+
+.newsletter-img-container img {
     height: 439px;
 }
 
@@ -487,4 +488,49 @@
     color: var(--simple-color);
     font-size: 32px;
     font-weight: 700;
+}
+
+/* Footer Related Styles */
+.footer-container {
+    background-color: #F9F7F7;
+}
+
+.footer-content {
+    text-align: center;
+    max-width: 872px;
+    margin: 0 auto;
+    padding: 110px 0;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+}
+
+.footer-desc {
+    color: var(--desc-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0 38px;
+    margin-bottom: 32px;
+}
+
+.socail-links {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 48px;
+    align-items: center;
+    justify-content: center;
+}
+.socail-links img{
+    height: 36px;
+    width: 36px;
+}
+
+.copy-right {
+    margin-top: 52px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--desc-color);
 }
