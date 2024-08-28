@@ -258,17 +258,233 @@
     font-weight: 500;
     line-height: 26px;
 }
-#color-a{
+
+#color-a {
     background-color: #FFFBF7;
     border: 1px solid #FFE8CE;
 }
-#color-b{
+
+#color-b {
     background-color: #F4FCFE;
     border: 1px solid #C6F4FF;
 }
-#color-c{
+
+#color-c {
     background-color: #FFF2F2;
     border: 1px solid #FBCBCB;
     max-width: 48%;
     margin: 0 auto;
+}
+
+/* Deals & Discounts Related styles */
+.deals-container {
+    margin: 100px 0;
+}
+
+.deals-content {
+    max-width: 640px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.deals-content-title {
+    color: var(--title-color);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-content-desc {
+    color: var(--desc-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.deals-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.deals-card {
+    max-width: 452px;
+    padding: 52px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: auto;
+}
+
+#deals-card-b {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#deals-a,
+#deals-c {
+    background-image: url(../Images/deals-a.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 56px 56px 56px 0;
+}
+
+#deals-b {
+    background-image: url(../Images/deals-b.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 56px 0 56px 56px;
+}
+
+.simple-details {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.simple-details-items {
+    display: flex;
+    gap: 8px;
+    align-items: center
+}
+
+.simple-details-items h5 {
+    color: var(--desc-color);
+}
+
+/* .simple-details-content{
+    margin-right: 52px;
+} */
+
+.simple-details-title {
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.simple-details-desc {
+    color: var(--desc-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.simple-details-price {
+    color: var(--brand-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* Newsletter Section Related Styls */
+.newsletter-container {
+    display: flex;
+    margin: 100px 0;
+    gap: 24px;
+    align-items: center;
+}
+
+.newsletter-content {
+    border: 1px solid var(--brand-color);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.newsletter-text {
+    margin-bottom: 24px;
+}
+
+.newsletter-title {
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.newsletter-desc {
+    color: var(--desc-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.newsletter-filed {
+    justify-content: center;
+}
+
+.newsletter-filed form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.newsletter-filed label {
+    width: 100%;
+}
+
+.newsletter-filed input[type="text"],
+.newsletter-filed input[type="email"] {
+    width: 90%;
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: none;
+    line-height: 25px;
+    background-color: #F3F3F3;
+}
+
+.newsletter-filed input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    line-height: 25px;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: none;
+    color: var(--simple-color);
+    font-weight: 800;
+    background-color: var(--brand-color);
+}
+
+.newsletter-img-container {
+    position: relative;
+}
+.newsletter-img-container img{
+    height: 439px;
+}
+
+.newsletter-img-overflow {
+    background-color: var(--brand-color);
+    padding: 24px 44px;
+    border-radius: 16px;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: rotate(-20deg);
+    text-align: center;
+}
+
+.newsletter-img-overflow a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--simple-color);
+    margin-bottom: 5px;
+}
+
+.newsletter-img-overflow h4 {
+    color: var(--simple-color);
+    font-size: 32px;
+    font-weight: 700;
 }
