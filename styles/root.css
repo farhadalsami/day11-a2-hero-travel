@@ -1,0 +1,13 @@
+/* Global styles */
+* {
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+    font-family: "Mulish", sans-serif;
+}
+
+:root {
+    --brand-color: #FF5400;
+    --title-color: #131318;
+    --desc-color: #424247;
+    --simple-color: #fff;
+}
